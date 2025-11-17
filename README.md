@@ -14,6 +14,7 @@ setting.txt		初期設定値を記述した定義ファイル		CR+LF形式で保
 ■必要環境　Python	 3.0以上　推奨
 
 ■起動/使用方法　
+
 1.上記ファイル群を同じフォルダ内に配置する　
 2.ターミナル上で、python connect.py　もしくは、　python classGUI.py　を実行
 
