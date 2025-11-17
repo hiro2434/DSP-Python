@@ -1,0 +1,1 @@
+#coding:utf-8import classGuiAppFrame = classGui.AppFrame()AppFrame.pack()AppFrame.mainloop()

@@ -1,0 +1,4 @@
+COM5
+GUI_LOGMAX,16
+
+
