@@ -1,11 +1,17 @@
 # DSP-Python
 
 ■各ファイル説明	
+
 connect.py	　起動処理を行うスクリプト		内部でclassGUI.pyを実行しています			
-classGUI.py		UIの管理/シリアルポートのアクセス/送受信パケットの処理　全般を扱います　		メインとなるスクリプト			connect.pyを用意しなくても、この.pyを直接起動させることも可能です				
+
+classGUI.py		UIの管理/シリアルポートのアクセス/送受信パケットの処理　全般を扱います　		メインとなるスクリプト			connect.pyを用意しなくても、この.pyを直接起動させることも可能です		
+
 classPacket.py	　パケットに関する処理/定義が記述されているスクリプト
+
 classSerial.py	　シリアルポートへのアクセス処理が記述されているスクリプト		pySerialのラッパーの役割	
+
 setting.txt		初期設定値を記述した定義ファイル		CR+LF形式で保存されている必要があります　　classGUI.pyの　loadSetting()関数内で読み込まれ、初期値を上書きします。　　
+
 
 ■必要環境　Python	 3.0以上　推奨
 
